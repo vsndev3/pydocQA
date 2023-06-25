@@ -10,7 +10,7 @@ NOTE: <i>This software is in very early stages of development!</i>
 * Start the container in interactive mode
    * Chat with your documents by running:
     ```podman run -it -v /mnt/c/Temp/vecdb/:/docQA/vecdb docker.io/vsndev3/docqa_v1_mpt7b:latest```
-* enjoy (:sparkler:)(:cocktail:)
+* enjoy :sparkler::cocktail:
 
 ## Running locally
 Clone this repo using below command and install the python requiremens and run it!
