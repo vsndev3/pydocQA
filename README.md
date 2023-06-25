@@ -3,7 +3,7 @@ Question Answering of private documents using open source LLM running localy.
 
 NOTE: <i>This software is in very early stages of development!</i>
 ## Quick start
-* Install [podman](https://podman.io/docs/installation) (for [macOS](https://github.com/containers/podman/blob/main/docs/tutorials/mac_win_client.md)) and [initialize](https://github.com/containers/podman/blob/main/docs/tutorials/podman-for-windows.md) it. i.e make sure <i>podman ps</i> command works in your terminal
+* Install [podman](https://podman.io/docs/installation) (for [macOS see here](https://github.com/containers/podman/blob/main/docs/tutorials/mac_win_client.md)) and [initialize](https://github.com/containers/podman/blob/main/docs/tutorials/podman-for-windows.md) it. i.e make sure <i>podman ps</i> command works in your terminal
 * Start the container mounting your document directory and vectorDB directory
    * Run ingest documents by running: ``` podman run -it -v /mnt/c/Temp/books/:/docQA/docs -v /mnt/c/Temp/vecdb/:/docQA/vecdb docker.io/vsndev3/docqa_v1_mpt7b:latest /docQA/docQA.py import-pdfs --dir /docQA/docs```
    * Run the above command with different PDF directories to have a combined vector DB at the given directory
