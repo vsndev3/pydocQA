@@ -12,7 +12,7 @@ NOTE: <i>This software is in very early stages of development!</i>
     ```podman run -it -v /mnt/c/Temp/vecdb/:/docQA/vecdb docker.io/vsndev3/docqa_v1_mpt7b:latest```
 * enjoy :sparkler::cocktail:
 
-![image](https://github.com/vsndev3/docQA/assets/63557727/5abd7979-6d10-4c7c-a0ff-3714d0d5d984)
+![image](https://github.com/vsndev3/docQA/assets/63557727/2db6b9f0-5274-4428-8eb7-69cfa0794ee0)
 
 ## Running locally
 Clone this repo using below command and install the python requiremens and run it!
